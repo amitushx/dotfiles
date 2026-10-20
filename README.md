@@ -19,7 +19,7 @@ Add new SSH key here: https://github.com/settings/keys
 ### Configure the dotfiles bare repo:
 ```bash
 alias dot='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
-git clone --bare git@github.com:amitc1612/dotfiles.git ~/.dotfiles
+git clone --bare git@github.com:amitushx/dotfiles.git ~/.dotfiles
 dot config --local status.showUntrackedFiles no
 dot checkout
 ```
